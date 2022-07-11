@@ -1,6 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=The+Nautigal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&family=Lato:wght@300&family=Roboto+Slab&family=The+Nautigal:wght@700&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&family=Roboto+Slab&family=The+Nautigal:wght@700&family=Yellowtail&display=swap');
+
 h1{
 text-align: center;
+color:rgb(10, 134, 169);
+font-size: 300%;
+word-spacing: 20px;
+font-weight: bolder;
+/* text-decoration: underline; */
 }
 body{
-    background-color: antiquewhite;
+    background-color: white;
+    background-image: url('https://source.unsplash.com/random/1920x1080/?gym,fitness');
+    text-align: center;
+    color: tomato;
+
 }
+.height{
+font-size: 250%;
+display: inline;
+text-indent: 50px;
+gap: 20px;
+font-weight: bolder;
+}
+.weight{
+    display: inline;
+    font-size: 250%;
+    font-weight: bolder;
+    /* font-family: 'EB Garamond', serif; */
+
+}
+.btn button{
+    padding:auto ;
+    height: 26px;
+    width: 85px;
+    border-radius: 12px;
+    background-color:aqua;
+    font-weight: lighter;
+    margin:8px 8px;
+    cursor: pointer;
+    gap: 20px;
+}
+.btn button:hover{
+background-color: aliceblue;
+color:grey;
+font-weight: bolder;
+}
+.btn button{
+    padding:auto ;
+    height: 26px;
+    width: 85px;
+    border-radius: 12px;
+    background-color:aqua;
+    font-weight: bold;
+    margin:8px 8px;
+    cursor: pointer;
+    gap: 20px;
+    font-weight: bolder;
+}
+.btn button:hover{
+background-color: aliceblue;
+color:grey;
+font-weight: bolder;
+}
+.foot{
+    color: white;
+}#weight{
+    width: 250px;
+    height: 28px;
+    text-align: center;
+    
+    }
+    #height{
+    width: 250px;
+    height: 28px;
+    text-align: center;
+    }
+
+    /* .btn  button {
+        opacity: 0.8;
+        cursor: not-allowed;
+      }*/
+      ::-webkit-input-placeholder { /*Chrome/Opera/Safari */
+        font-family: cursive, serif;
+        font-size: 20px;
+        background-color:azure;
+        cursor: pointer;
+     }
+      ::-moz-placeholder { /* Firefox 19+ */
+        font-family: cursive, serif;
+        font-size: 20px;
+        background-color:azure;
+        cursor: pointer;
+        /* color: pink; */
+      }
+      :-ms-input-placeholder { /* IE 10+ */
+        font-family: cursive, serif;
+        font-size: 20px;
+        background-color:azure;
+        cursor: pointer;
+         /* color: pink; */
+      }
+      :-moz-placeholder { /* Firefox 18- */
+        font-family: cursive, serif;
+        font-size: 20px;
+        background-color:azure;
+        cursor: pointer;
+        /* color: pink; */
+      }
+      #message{
+        font-size: 24px;
+        font-weight: bolder;
+        color: lightskyblue;
+      }
+      
+      #message6{
+        font-size: 22px;
+        font-weight: bold;
+        color: lightskyblue;
+      }
+      #bmi-output{
+        font-size:30px ;
+        font-weight: bolder;
+        color:white;
+      }
+      
+      #heading{
+        font-size: 24px;
+        font-weight: bold;
+        color: whitesmoke;
+
+      }
+      #message1{
+        font-size: 20px;
+        font-weight: bolder;
+        color: rgb(216, 247, 20);
+      }
+      #message2{
+        font-size: 20px;
+        font-weight: bolder;
+        color: rgb(216, 247, 20);
+      }#message4{
+        font-size: 20px;
+        font-weight: bolder;
+        color: rgb(216, 247, 20);
+      }#message3{
+        font-size: 20px;
+        font-weight: bolder;
+        color: rgb(216, 247, 20);
+      }#message5{
+        font-size: 20px;
+        font-weight: bolder;
+        color: rgb(216, 247, 20);
+      }
+      #message7{
+        font-size: 20px;
+        font-weight: bolder;
+        color: rgb(235, 8, 46);
+      }
+      #message8{
+        font-size: 20px;
+        font-weight: bolder;
+        color: rgb(235, 8, 46);
+      }
+      #message9{
+        font-size: 20px;
+        font-weight: bolder;
+        color: rgb(235, 8, 46);
+      }
+      #message10{
+        font-size: 20px;
+        font-weight: bolder;
+        color: rgb(235, 8, 46);
+      }
+      #message11{
+        font-size: 20px;
+        font-weight: bolder;
+        color: rgb(235, 8, 46);
+      }
+      

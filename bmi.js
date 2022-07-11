@@ -53,13 +53,13 @@ function calculatebmi(){
     else if(bmi>=18 && bmi<=25){
         document.getElementById('heading').innerHTML='Your BMI  is: '
     document.getElementById('bmi-output').innerHTML=bmi.toFixed(2)
-        document.getElementById('message').innerHTML="You are normal:keep it up! </br></br>You must follow this diet to get fit:-"
+        document.getElementById('message').innerHTML="You are normal:keep it up! </br></br>You must follow this diet to make yourself better:-"
         document.getElementById('message1').innerHTML="Meal 1:- 4 brown bread/2 paratha,1 glass milk/2 eggs."
         document.getElementById('message2').innerHTML="Meal 2:-150gm of any fruit,150gm of nuts (cashew and almonds)."
         document.getElementById('message3').innerHTML="Meal 3:- 200gm of brown rice,150gm of chicken/vegetable,150gm curd ."
         document.getElementById('message4').innerHTML="Meal 4:- 150gm sprouts"
         document.getElementById('message5').innerHTML="Meal 5:- boiled vegetables,100gm chicken,150gm rice."
-        document.getElementById('message6').innerHTML="</br></br>You must follow these exercises to get fit:-"
+        document.getElementById('message6').innerHTML="</br></br>You must follow these exercises to make yourself better:-"
         document.getElementById('message7').innerHTML="Exercise 1:- Twenty five minutes of cardio"
         document.getElementById('message8').innerHTML="Exercise 2:- Three sets of pull ups each ten reps initially and then increase 5 weekly ."
         document.getElementById('message9').innerHTML="Exercise 3:- Three sets of push ups each twenty reps initially and then increase 5 weekly."
